@@ -6,33 +6,36 @@
 
 @layer base {
   :root {
-    --background: 210 17% 98%;
-    --foreground: 0 0% 10%;
+    --background: 40 33% 97%;
+    --foreground: 240 10% 3.9%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 10%;
+    --card: 40 33% 97%;
+    --card-foreground: 240 10% 3.9%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 10%;
+    --popover: 40 33% 97%;
+    --popover-foreground: 240 10% 3.9%;
 
-    --primary: 217 100% 47%;
-    --primary-foreground: 210 40% 98%;
+    /* Pokemon Red */
+    --primary: 0 84% 60%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Pokemon Blue */
+    --secondary: 217 91% 60%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215 9% 50%;
 
-    --accent: 220 91% 52%;
-    --accent-foreground: 210 40% 98%;
+    /* Pokemon Yellow */
+    --accent: 43 96% 58%;
+    --accent-foreground: 240 10% 3.9%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 217 100% 47%;
+    --border: 215 20% 65%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 217 100% 47%;
+    --ring: 0 84% 60%;
 
     --radius: 0.5rem;
   }
