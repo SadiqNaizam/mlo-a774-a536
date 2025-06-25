@@ -1,14 +1,25 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import React from 'react';
+import TopNav from '@/components/layout/TopNav';
+import HeroContent from '@/components/Hero/HeroContent';
 
-const Index = () => {
+/**
+ * @description The main landing page for the SynergyFlow application.
+ * It serves as the primary entry point, composing the `TopNav` and `HeroContent`
+ * components to present the key value proposition to users.
+ * The layout is a simple vertical column, with the hero section centered
+ * in the available space.
+ * @page
+ * @returns {React.ReactElement} The rendered index page.
+ */
+const IndexPage: React.FC = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="flex min-h-screen flex-col bg-background text-foreground">
+      <TopNav />
+      <main className="flex flex-1 items-center justify-center p-4 md:p-6">
+        <HeroContent />
+      </main>
     </div>
   );
 };
 
-export default Index;
+export default IndexPage;
