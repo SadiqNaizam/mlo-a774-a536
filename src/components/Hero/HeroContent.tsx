@@ -16,14 +16,14 @@ const HeroContent: React.FC = () => {
       </h1>
 
       <p className="text-lg text-muted-foreground md:text-xl">
-        SynergyFlow is the all-in-one platform designed to streamline your
+        PokéFlow is the all-in-one platform designed to streamline your
         projects, enhance collaboration, and boost productivity. Stop juggling
         tools, start achieving goals.
       </p>
 
       <div className="flex w-full flex-col gap-4 sm:w-auto sm:flex-row mt-2">
         {/* Primary Call-to-Action Button */}
-        <Button size="lg" className="w-full bg-accent text-accent-foreground hover:bg-accent/90 sm:w-auto">
+        <Button size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 sm:w-auto">
           Start Your Free Trial
         </Button>
 
@@ -31,7 +31,7 @@ const HeroContent: React.FC = () => {
         <Button
           variant="outline"
           size="lg"
-          className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground sm:w-auto"
+          className="w-full border-accent text-accent hover:bg-accent hover:text-accent-foreground sm:w-auto"
         >
           Learn More
           <ChevronDown className="ml-2 h-4 w-4" />
